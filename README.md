@@ -21,4 +21,10 @@ Steps for Building the Power BI Dashboard
 **2. Data Walkthrough**
   - Load and explore the dataset in Power BI.
   -	Objectives:
-        <li>Understand the dataset structure, including:</li>
+
+   	- Understand the dataset structure, including:
+       - 	Column names
+       - 	Data types
+       - 	Missing or invalid data
+    -	Identify relationships and fields for calculated columns/measures.
+
