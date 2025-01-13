@@ -5,4 +5,14 @@ Steps for Building the Power BI Dashboard
 # Steps for Building the Power BI Dashboard
 
 # 1. Requirement Gathering / Business Understanding
--Objective: Conduct a comprehensive analysis of Blinkit’s:
+- **Objective:** Conduct a comprehensive analysis of Blinkit’s:
+- Sales Prformance
+- Customer satisfaction
+-	Inventory distribution
+-	Identify opportunities for optimization using KPIs and visualizations.
+
+**Key KPIs to Track:**
+- Total Sales
+- Average Sales
+- Number of Items Sold
+- Average Rating
