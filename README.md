@@ -16,3 +16,9 @@ Steps for Building the Power BI Dashboard
 - Average Sales
 - Number of Items Sold
 - Average Rating
+
+
+**2. Data Walkthrough**
+  - Load and explore the dataset in Power BI.
+  -	Objectives:
+        <li>Understand the dataset structure, including:</li>
