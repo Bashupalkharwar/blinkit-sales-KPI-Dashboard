@@ -27,4 +27,37 @@ Steps for Building the Power BI Dashboard
        - 	Data types
        - 	Missing or invalid data
     -	Identify relationships and fields for calculated columns/measures.
+      
+**Example columns** to expect in the dataset:
+- Sales, Item Type, Fat Content, Outlet Size, Outlet Type, Rating, Outlet Establishment Year, etc.
 
+
+**3. Data Connection**
+-	Import the dataset into Power BI.
+    -	Source: Excel, CSV, SQL Database, or any other data source.
+    -	Use Home > Get Data option to connect your data source.
+
+**4. Data Cleaning / Quality Check (Power Query Editor)**
+	**Steps:**
+- Remove Empty Rows/Columns: Filter out unnecessary data.
+-	Handle Missing Values: Use data imputation or remove null values.
+-	Change Data Types: Ensure columns like Sales (Currency), Rating (Decimal), etc., are assigned correct data types.
+-	Filter Data: Keep relevant rows/fields.
+- Transform Columns:
+    - Extract Year from the establishment date.
+    - Split concatenated fields if any.
+-	Note: Save these changes in the Applied Steps section.
+
+
+**5. Data Modeling**
+**Steps:**
+-	Create relationships between tables (if applicable).
+Example: Link Sales to Outlet and Item Type.
+-	Use Star Schema for efficient analysis.
+-	Define Primary and Foreign Keys.
+-	Ensure relationships are set to One-to-Many for better filtering.
+
+**6. DAX Calculations**
+- Write custom measures to calculate KPIs:
+    - **Total Sales:**
+    - Total_sales = SUM('BlinkIT Grocery Data'[Sales])
