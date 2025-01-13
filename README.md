@@ -20,3 +20,14 @@ Conduct a comprehensive analysis of Blinkit’s:
 <h1>2.Data Walkthrough</h1>
 <li>Load and Explore the data set in Power Bi</li>
 <h5>Objetive :</h5>
+<li>Understand the dataset structure, including:</li>
+    <ul>
+     <li>Coulmn Name</li>
+     <li>Data Type</li>
+     <li>Missing or invalid data</li>
+    </ul>
+    <li>Identify relationships and fields for calculated columns/measures.</li>
+    <h6>Example columns to expect in the dataset:</h6>
+    <ul>
+     <li>Sales, Item Type, Fat Content, Outlet Size, Outlet Type, Rating, Outlet Establishment Year, etc.</li>
+    </ul>
